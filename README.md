@@ -1,6 +1,9 @@
-# latex-classes
-LaTeX Classes for authoring articles for publication in EDP Sciences journals
+Docker image for use with the Writing Studio
+============================================
 
-## Usage
+This image contains the necessary files to allow latex document written for 
+EDP Sciences Journals to be correctly compiled.
 
-calling `make.py` will generate a `texmf` folder with the relevant classes and packages installed in the correct place.
+## Build
+
+calling `rebuild.sh` will update the `texmf` folder with the relevant classes from latex-classes.
